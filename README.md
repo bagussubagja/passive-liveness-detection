@@ -67,18 +67,17 @@ python3 generate-liveness-model.py
 
 ## 🔍 Prediksi Gambar Tunggal
 
-**File**: `predict_image.py`
+**File**: `face-predict.py`
 
 Gunakan untuk memprediksi apakah wajah dalam gambar adalah asli atau palsu:
 
 ```bash
-python3 predict_image.py path/to/image.jpg
+python3 face-predict.py path/to/image.jpg
 ```
 
 **Contoh output**:
 ```
-Confidence: 0.91
-Prediction: REAL
+Confidence: 0.9771, Decision: fake
 ```
 
 ## 🧠 Arsitektur Model CNN
